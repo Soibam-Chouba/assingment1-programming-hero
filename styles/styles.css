@@ -77,4 +77,34 @@ body{
     padding: 80px 60px 80px 0px;
 }
 /* header 2nd section close */
+/* main 1st section start*/
+.main-first-mom-container{
+    margin: 0px 160px 80px;
+}
+.main-first-mom-container h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+.main-first-containers{
+    
+    display: flex;
+    gap: 24px;
+}
+.main-first-container{
+    padding: 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+}
+.main-first-container-img{
+    margin-bottom: 24px;
+}
+.main-first-container-written h4{
+    margin-bottom: 12px;
+    color:rgba(14, 14, 14, 0.8);
+}
+.main-first-container-written p{
+    color:rgba(14, 14, 14, 0.7);
+}
+/* main 1st section close*/
   
