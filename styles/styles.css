@@ -6,10 +6,11 @@
 body{
     font-family: "Fira Sans", serif;
     font-style: normal;
+    background-color: rgb(238, 241, 244);
 }
 /* shared styles */
 .btn-typ1{
-    background-color: white;
+    background-color: rgb(238, 241, 244);
 }
 .btn-typ2{
     background-color: #006A50;
@@ -19,6 +20,14 @@ body{
     border: none;
     border-radius: 8px;
     padding: 17px 34px 17px 34px;
+}
+.btn-typ3{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 11px 20px;
+    border-radius: 8px;
+    border: none;
+    color: white;
 }
 /* header first section start */
 .first-header-container{
@@ -87,11 +96,11 @@ body{
     margin-bottom: 32px;
 }
 .main-first-containers{
-    
     display: flex;
     gap: 24px;
 }
 .main-first-container{
+    background-color: white;
     padding: 24px;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
@@ -107,4 +116,85 @@ body{
     color:rgba(14, 14, 14, 0.7);
 }
 /* main 1st section close*/
+/* main 1st section start */
+.main-2nd-mom-container{
+    margin: 0px 160px 80px;
+}
+.main-2nd-mom-container h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.mom-descrip{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 32px;
+}
+.main-2nd-containers{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+.main-2nd-container{
+    padding: 32px;
+}
+.main-2nd-container-img{
+    margin-bottom: 24px;
+}
+.main-2nd-container h4{
+    margin-bottom: 12px;
+    color: rgba(14, 14, 14, 0.8);
+}
+.main-2nd-container p{
+    margin-bottom: 24px;
+    color:rgba(14, 14, 14, 0.7);
+}
+#main-2nd-container-bg-1
+{
+    background-color: rgba(84, 144, 245, 0.2);
+    border-radius: 16px;
+}
+#main-2nd-container-bg-2
+{
+    background-color: rgba(198, 228, 214, 1);
+    border-radius: 16px;
+}
+#main-2nd-container-bg-3{
+    background-color: rgba(247, 235, 207, 1);
+    border-radius: 16px;
+}
+#btn-typ3-clr1{
+    background-color:rgba(84, 144, 245, 1) ;
+}
+#btn-typ3-clr2{ 
+    background-color: rgba(9, 161, 92, 1); 
+}
+#btn-typ3-clr3{
+    background-color: rgba(255, 194, 57, 1);
+}
+.dr-yunus{
+    background-color: white;  
+    border-radius: 16px;
+}
+.dr-yunus-core{
+    background-image: url('../assets/quote-bg.png');
+    background-position: 24px 24px;
+    background-repeat: no-repeat;
+    padding: 48px 24px;
+}
+.dr-yunus-speech{
+    font-size:16px ;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 12px;
+}
+.dr-yunus-core h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(14, 14, 14, 0.8);
+}
+.dr-yunus-tags{
+    color: rgba(14, 14, 14, 0.6);
+    font-size: 16px;
+}
+/* main 1st section close */
   
