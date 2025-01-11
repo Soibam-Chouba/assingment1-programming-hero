@@ -324,6 +324,12 @@ select{
     margin-bottom: 24px;
     justify-content: space-between;
 }
+.donate-mom-container h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 1);
+    margin-bottom: 24px;
+}
 .news-container h2{
     font-size: 32px;
     font-weight: 700;
@@ -338,12 +344,6 @@ select{
 .donate-mom-container{
     margin: 0px 160px 80px;
     text-align: center;
-}
-.donate-mom-container h1{
-    font-size: 40px;
-    font-weight: bold;
-    color: rgba(14, 14, 14, 1);
-    margin-bottom: 24px;
 }
 .donate-btns{
     display: flex;
@@ -406,3 +406,54 @@ select{
     border-radius: 8px;
 }
 /* Donate section close */
+/* Subscribe Newsletter start */
+.subscribe-mom-container{
+    margin: 0px 160px 80px;
+    background-color: rgba(198, 228, 214, 1);
+    border-radius: 24px;
+    text-align: center;
+    padding: 80px 265px;
+}
+.subscribe-mom-container h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 1);
+    margin-bottom: 24px;
+}
+.sub-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.sub-bar-email{
+    font-family: "Fira Sans", serif;
+    font-style: normal;
+    padding: 18px 40px;
+    width: 600px;
+    border: none;
+    border-radius: 8px 0px 0px 8px;
+}
+.sub-bar-btn{
+    font-family: "Fira Sans", serif;
+    font-style: normal;
+    padding: 15px 34px;
+    background-color: rgba(0, 106, 80, 1);
+    border: none;
+    border-radius: 0px 8px 8px 0px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+.sub-bar-btn:hover{
+    font-family: "Fira Sans", serif;
+    font-style: normal;
+    padding: 15px 34px;
+    background-color:rgb(182, 255, 191);
+    border: none;
+    border-radius: 0px 8px 8px 0px;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(0, 106, 80, 1);
+}
+/* Subscribe Newsletter close */
