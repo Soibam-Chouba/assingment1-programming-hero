@@ -457,3 +457,35 @@ select{
     color: rgba(0, 106, 80, 1);
 }
 /* Subscribe Newsletter close */
+/* footer */
+.footer-main-container{
+    background-color: white;
+    text-align: center;
+    padding: 50px 0px;
+}
+.footer-main-container h2{
+    font-size: 32px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 1);
+    margin-bottom: 32px;
+}
+hr{
+    display: block;
+    margin: 0px auto;
+    width: 60%;
+    size: 1px;
+    color: rgba(0, 0, 0, 0.275);
+    margin-bottom: 32px;
+}
+.foot-imgs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 23px;
+}
+.foot-img{
+    background-color: none;
+}
+.foot-img:hover{
+    background-color: #adb5b581;
+}
