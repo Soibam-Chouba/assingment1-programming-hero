@@ -277,6 +277,8 @@ select{
 /* 3rd section close */
 /* news section start */
 .news-btn{
+    font-family: "Fira Sans", serif;
+    font-style: normal;
     border: none;
     background-color:rgba(0, 106, 80, 1) ;
     border-radius: 8px;
@@ -286,8 +288,10 @@ select{
     padding: 13px 26px;
 }
 .news-btn:hover{
+    font-family: "Fira Sans", serif;
+    font-style: normal;
     border: none;
-    background-color: rgb(150, 255, 188);
+    background-color: rgb(197, 241, 213);
     border-radius: 8px;
     color: rgba(0, 106, 80, 1);
     font-size: 18px;
@@ -329,3 +333,76 @@ select{
 .news-images img{
     border-radius: 24px;
 }
+/* news section close */
+/* Donate section start */
+.donate-mom-container{
+    margin: 0px 160px 80px;
+    text-align: center;
+}
+.donate-mom-container h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 1);
+    margin-bottom: 24px;
+}
+.donate-btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.donate-btn{
+    font-family: "Fira Sans", serif;
+    font-style: normal;
+    text-decoration: none;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background-color: white;
+    padding: 40px;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
+    border-radius: 16px;
+}
+.donate-btn:hover{
+    font-family: "Fira Sans", serif;
+    font-style: normal;
+    text-decoration: none;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background-color: rgba(198, 228, 214, 1);
+    padding: 40px;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
+    border-radius: 16px;
+}
+.text-area{
+    margin-top: 32px;
+    padding: 20px 40px;
+    width: 900px;
+    border: none;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.done-now-btn{
+    font-family: "Fira Sans", serif;
+    font-style: normal;
+    background-color: rgba(0, 106, 80, 1);
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 17px 34px;
+    border: none;
+    border-radius: 8px;
+}
+.done-now-btn:hover{
+    font-family: "Fira Sans", serif;
+    font-style: normal;
+    background-color: rgb(169, 238, 214);
+    color: rgba(0, 106, 80, 1);
+    font-size: 18px;
+    font-weight: 600;
+    padding: 17px 34px;
+    border: none;
+    border-radius: 8px;
+}
+/* Donate section close */
