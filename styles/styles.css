@@ -10,9 +10,19 @@ body{
 }
 /* shared styles */
 .btn-typ1{
+    font-family: "Fira Sans", serif;
+    font-style: normal;
     background-color: rgb(238, 241, 244);
 }
+.btn-typ1:hover{
+    font-family: "Fira Sans", serif;
+    font-style: normal;
+    background-color: #006A50;
+    color: rgb(238, 241, 244);
+}
 .btn-typ2{
+    font-family: "Fira Sans", serif;
+    font-style: normal;
     background-color: #006A50;
     color: white;
     font-size: 18px;
@@ -21,7 +31,19 @@ body{
     border-radius: 8px;
     padding: 17px 34px 17px 34px;
 }
+.btn-typ2:hover{
+    font-family: "Fira Sans", serif;
+    font-style: normal;
+    background-color:white;
+    color:#006A50;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 17px 34px 17px 34px;
+}
 .btn-typ3{
+    font-family: "Fira Sans", serif;
+    font-style: normal;
     font-size: 16px;
     font-weight: 600;
     padding: 11px 20px;
@@ -98,6 +120,7 @@ body{
 .main-first-containers{
     display: flex;
     gap: 24px;
+    justify-content: space-around;
 }
 .main-first-container{
     background-color: white;
@@ -116,7 +139,7 @@ body{
     color:rgba(14, 14, 14, 0.7);
 }
 /* main 1st section close*/
-/* main 1st section start */
+/* main 2nd section start */
 .main-2nd-mom-container{
     margin: 0px 160px 80px;
 }
@@ -134,6 +157,7 @@ body{
     display: flex;
     gap: 24px;
     margin-bottom: 32px;
+    justify-content: space-around;
 }
 .main-2nd-container{
     padding: 32px;
@@ -166,11 +190,20 @@ body{
 #btn-typ3-clr1{
     background-color:rgba(84, 144, 245, 1) ;
 }
+#btn-typ3-clr1:hover{
+    background-color:rgb(0, 46, 120) ;
+}
 #btn-typ3-clr2{ 
     background-color: rgba(9, 161, 92, 1); 
 }
+#btn-typ3-clr2:hover{ 
+    background-color: rgb(5, 78, 45); 
+}
 #btn-typ3-clr3{
     background-color: rgba(255, 194, 57, 1);
+}
+#btn-typ3-clr3:hover{
+    background-color: rgb(206, 144, 0);
 }
 .dr-yunus{
     background-color: white;  
@@ -196,5 +229,48 @@ body{
     color: rgba(14, 14, 14, 0.6);
     font-size: 16px;
 }
-/* main 1st section close */
-  
+/* main 2nd section close */
+
+/* main 3rd section start */
+.third-mom-container{
+    margin: 0px 160px 80px;
+}
+.third-mom-container h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.third-container-body{
+    background-color: white;
+    padding: 32px;
+    border-radius: 16px;
+}
+table{
+    border-collapse: collapse;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+thead{
+    background-color: rgba(198, 228, 214, 1);
+} 
+td{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+.two-thead{
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(14, 14, 14, 1);
+}
+tbody td{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 36px 24px 36px 24px;
+}
+select{
+    padding: 12px 16px 12px 16px;
+    background-color: rgba(198, 228, 214, 1);
+}
